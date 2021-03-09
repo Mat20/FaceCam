@@ -1,0 +1,33 @@
+* 
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+ position: relative;
+ padding: 24px;
+ width: 204px;
+ height: 204px;
+
+ border: 1px solid white;
+ -webkit-app-region: drag;
+}
+
+.wrapper {
+  width: 160px;
+  height: 160px;
+
+  overflow: hidden;
+
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+
+  -webkit-app-region: drag;
+}
+
+.wrapper video {
+  height: 160px;
+}
